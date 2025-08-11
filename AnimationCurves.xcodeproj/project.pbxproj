@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD8C5DCE2E4A39B600D74A5B /* Read Me.md in Resources */ = {isa = PBXBuildFile; fileRef = BD8C5DCD2E4A39B600D74A5B /* Read Me.md */; };
+		BD8C5DD02E4A39C200D74A5B /* License.md in Resources */ = {isa = PBXBuildFile; fileRef = BD8C5DCF2E4A39C200D74A5B /* License.md */; };
 		BD930DA32E4A2A7D00077B38 /* Wave in Frameworks */ = {isa = PBXBuildFile; productRef = BD930DA22E4A2A7D00077B38 /* Wave */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD8C5DCD2E4A39B600D74A5B /* Read Me.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Read Me.md"; sourceTree = "<group>"; };
+		BD8C5DCF2E4A39C200D74A5B /* License.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = License.md; sourceTree = "<group>"; };
 		BD930D892E4A16DA00077B38 /* AnimationCurves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationCurves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -52,6 +56,8 @@
 			children = (
 				BD930D8B2E4A16DA00077B38 /* AnimationCurves */,
 				BD930D8A2E4A16DA00077B38 /* Products */,
+				BD8C5DCD2E4A39B600D74A5B /* Read Me.md */,
+				BD8C5DCF2E4A39C200D74A5B /* License.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8C5DD02E4A39C200D74A5B /* License.md in Resources */,
+				BD8C5DCE2E4A39B600D74A5B /* Read Me.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
